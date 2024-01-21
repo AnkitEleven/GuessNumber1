@@ -8,6 +8,13 @@ body{
      color: #ccc;
     background-color: black;
 }
+#mybtn
+{
+   background-color: yellow;
+}
+#number{
+   background-color: white;
+}
 .btn
 {
     /* width: 50px;
