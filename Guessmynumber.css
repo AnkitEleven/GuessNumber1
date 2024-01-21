@@ -5,12 +5,13 @@
 }
 body{
     font-size: 30px;
-     color: #ccc;
+     color: yellow;
     background-color: black;
 }
 #mybtn
 {
    background-color: yellow;
+    color: black;
 }
 #number{
    background-color: white;
