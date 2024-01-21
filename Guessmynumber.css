@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding : 0;
+    /* box-sizing: border-box; */
+}
+body{
+    font-size: 30px;
+     color: #ccc;
+    background-color: black;
+}
+.btn
+{
+    /* width: 50px;
+    height: 50px; */
+    font-size: 30px;
+}
+/* <section id = "middlesection">
+    <div class = "middle">
+        <p class = "guess"> Guess My Number!</p>
+    </div>
+</section> */
+
+ .middle{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle .guess {
+    margin-top: 50px;
+}
+.upper .again{
+    float: left;
+}
+.upper .range
+{
+     float:right;
+}
+
+.guessthenumber{
+     color: black;
+     width: 80px; height: 80px;
+     background-color: white;
+     margin: auto;
+  /* margin: 10px 0 20px;  */
+     display: flex; align-items: center; justify-content: center;
+     margin-top: -40px;
+}
+.inputfield input
+{
+    height: 50px;
+}
+.inputfield
+{   
+    height: 400px;
+    grid-area: input; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; align-items: center;
+}
+.score
+{
+    height: 400px;
+    height: auto;
+    grid-area: score;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    
+}
+.gridcontainer
+{
+    display: grid;
+    grid:
+    'input score';
+    
+   
+}
+.grid-container  div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .click
+  {
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+  }
+  .tryagain {
+    padding-bottom: 61px;
+}
